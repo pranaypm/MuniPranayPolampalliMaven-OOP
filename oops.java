@@ -51,15 +51,15 @@ public static void main(String[] args)
 {
 
 Scanner l1=new Scanner(System.in);
-int n1=l1.nextInt();
-int n2=l1.nextInt();
-Pranay l=new Pranay();
-Accessing l2=new Accessing();
-Data2 l3=new Data2();
-l.hello();
-l.price(n1,n2);
-l.price(n1,n2,10.0);
-l2.access();
-l3.hello();
+int n1=l1.nextInt();   // Reading a value.
+int n2=l1.nextInt();    // Reading another value.
+Pranay l=new Pranay();   //Creating a object for Pranay class.
+Accessing l2=new Accessing(); // Creating object for Accessing class.
+Data2 l3=new Data2();  // Creating object for Data2 class.
+l.hello(); // calling the hello method.
+l.price(n1,n2); // calling the price method.
+l.price(n1,n2,10.0); // Calling the price method to check method overloading.
+l2.access(); //calling the access class to check method in interface is implemented or not.
+l3.hello(); //calling the hello method for checking the method overriding.
 }
 }
